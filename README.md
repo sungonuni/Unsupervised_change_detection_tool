@@ -1,3 +1,7 @@
+## Instruction
+This is official code of 'PC2VA : : Principal Component and Change Vector Analysis for Unsupervised Change Detection in satellite images'. 
+You can perform the unsupervised change detection at bi-temporal sattlelite imagary in PC2VA method.
+
 ## Requirements
 - Python 3.8
 - UMAP
