@@ -7,8 +7,8 @@ from tqdm import tqdm
 from pca_kmeans_dcva import detect_change
 
 # Dataset dir (changing required)
-img_pre_path = '/data/workspace/seonggon/ev21_phase2/SNUnet/SCData/test/A/'
-img_post_path = '/data/workspace/seonggon/ev21_phase2/SNUnet/SCData/test/B/'
+img_pre_path = './A/'
+img_post_path = './B/'
 
 img_pre_list = [i for i in os.listdir(img_pre_path)]
 img_pre_list.sort()

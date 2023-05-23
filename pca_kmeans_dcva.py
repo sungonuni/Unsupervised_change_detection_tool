@@ -1,9 +1,8 @@
 import numpy as np
 import math
  
-import torch
 from sklearn.cluster import KMeans
-from saturateSomePercentile import saturateImage
+#from saturateSomePercentile import saturateImage
  
 # https://github.com/rulixiang/ChangeDetectionPCAKmeans/blob/master/pca_kmeans.m
 # https://ieeexplore.ieee.org/document/5196726
