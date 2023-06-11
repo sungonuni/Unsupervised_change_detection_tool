@@ -29,6 +29,8 @@
 
 오차역전파에 사용할 최종 EPL은 GT_h – Predict_h의 L2 norm과 GT_v – Predict_v의 L2 norm의 합으로 구할 수 있다. 이는 정답 이미지와 예측 이미지 간 수직방향과 수평방향의 그라디언트 차를 구하므로써 모델로 하여금 변화탐지 영역의 엣지 부분을 정확하게 학습시키려는 의도이다. 
 
+## Result
+![fig3](fig3.png)
 
 ## Requirements
 
